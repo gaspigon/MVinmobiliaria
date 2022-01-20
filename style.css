@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-icono{
+    width: 15rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: gray;
+    transition: all 0.1s;
+}
+
+.nav-link:hover{
+    color: rgb(167, 29, 36);
+    transform: scale(1.07);
+}
+
+
+.link{
+    font-size: 2rem;
+}
+
+.link-whats{ 
+ position: fixed;
+ right:0;
+ bottom: 2rem;
+ z-index: 1;
+}
+
+.img-whats{
+    width: 10rem;
+}
+
+.box{
+    border: 2px solid black;
+    width: 20%;
+    height: 60rem;
+}
+
+.box-footer{
+    margin-left: 2rem;
+}
+
+.img-footer{
+    width: 15rem;
+}
+
+#celular{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+  #celular{
+      display: flex;
+  }
+
+  #web{
+      display: none;
+  }
+}
