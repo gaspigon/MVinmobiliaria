@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .img-icono{
     width: 15rem;
@@ -33,6 +36,15 @@
 
 .img-whats{
     width: 10rem;
+}
+
+.caja-emergente{
+    display: none;
+}
+
+.link-whats:hover .caja-emergente{
+display: block;
+text-align: center;
 }
 
 .box{
