@@ -82,7 +82,11 @@ text-align: center;
       position: fixed;
       right: 0;
       bottom: 0;
-      width: 8rem;
-      height: 7rem;
+      width: 6rem;
+      height: 5rem;
+  }
+
+  .link-whats:hover{
+      display: none;
   }
 }
