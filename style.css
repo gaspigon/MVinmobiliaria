@@ -59,9 +59,22 @@ text-align: center;
 
 .img-footer{
     width: 15rem;
+
 }
 
 #celular{
+    display: none;
+}
+
+#celular-2{
+    display: none;
+}
+
+.foot-3{
+    font-size: 2rem;
+}
+
+.box-final{
     display: none;
 }
 
@@ -81,12 +94,16 @@ text-align: center;
   .link-whats{
       position: fixed;
       right: 0;
-      bottom: 0;
+      bottom: 1rem;
       width: 6rem;
       height: 5rem;
   }
 
   .link-whats:hover{
       display: none;
+  }
+
+  .box-final{
+      display: flex;
   }
 }
